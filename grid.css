@@ -34,7 +34,7 @@ body {
 .container_12 {
 	margin-left: auto;
 	margin-right: auto;
-	width: 981px;
+	/* width: 981px; */
 }
 
 /* Grid >> Global
@@ -423,6 +423,7 @@ body {
 	font-size: 40px;
 	padding: 10px 0px 20px 0px;
 	color: #363636;
+	white-space: nowrap;
 }
 
 #biotext {
@@ -712,13 +713,16 @@ body {
 	font-family: 'Source Sans Pro', sans-serif; 
 	font-weight: 700; 
 	font-size: 25px; 
-	padding-bottom: 11px;
+	padding: 0 1rem 11px;
 	border-bottom: 1px solid #a1a1a1;
 	color: #777;
 }
 
-.activated-tabs {
+.activated-tabs:not(a) {
 	border-bottom: 3px solid #1A73E8;
+}
+
+.activated-tabs > * {
 	color: #1A73E8;
 }
 

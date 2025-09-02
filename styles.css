@@ -1,9 +1,13 @@
+* {
+  box-sizing: border-box;
+}
+
 section {
   max-width: calc(100vw - 4rem);
   padding: 0 2rem;
 }
 
-section > div {
+section > * {
   max-width: min(100%, 1000px);
   margin: 0 auto;
 }
@@ -81,5 +85,31 @@ hr.spacer {
 @media screen and (max-width: 375px) {
   #portrait.mobile {
     width: 100%;
+  }
+}
+
+/* Main-content section */
+
+#main-content {
+  display: flex;
+  gap: 2rem;
+  flex-flow: row nowrap;
+}
+
+#news-column {
+  width: 320px;
+}
+
+#content-selector {
+  display: flex;
+}
+
+.tabs:hover > * {
+	color: #1A73E8;
+	text-decoration-line: underline
+}
+
+@media screen and (max-width: 1050px) {
+  #main-content {
   }
 }
