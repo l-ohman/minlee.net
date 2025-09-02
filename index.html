@@ -7,6 +7,10 @@
     <link href="styles.css" rel="stylesheet" type="text/css" />
     <meta name="description=" content="" />
     <style type="text/css"></style>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1"
+    />
 
     <script type="text/javascript">
       var _gaq = _gaq || [];
@@ -44,75 +48,94 @@
           <p></p>
         </div>
 
-        <div id="name" class="grid_5">Min Kyung Lee</div>
+        <div id="name">Min Kyung Lee</div>
 
-        <div class="grid_12" style="margin-bottom: 1.5rem">
-          <!-- Left column (image and selected highlights) -->
-          <div class="grid_4">
-            <img src="img/profile-small-02.png" alt="" width="280" />
-            <table width="280" cellspacing="0" cellpadding="0">
-              <tr>
-                <td id="highlight_title">SELECTED HIGHLIGHTS</td>
-              </tr>
-              <tr>
-                <td id="highlight">
-                  Our
-                  <a
-                    href="https://dl.acm.org/doi/10.1145/3686962"
-                    target="_blank"
-                    class="news"
-                    >Matchmaking with AI</a
-                  >
-                  paper received the
-                  <span id="highlight_emph"
-                    >CSCW24 Best Paper Honorable Mention</span
-                  >
-                  award.
-                </td>
-              </tr>
+        <div id="intro-container">
+          <!-- Left column (desktop) -->
+          <div class="left-column">
+            <img
+              src="img/profile-small-02.png"
+              alt="Min Kyung Lee"
+              width="280"
+              id="portrait"
+            />
 
-              <tr>
-                <td id="highlight">
-                  &#xFE0F; I was honored to participate in the
-                  <span id="highlight_emph"
-                    >White House Office of Science and Technology Policy (OSTP)
-                    event</span
-                  >
-                  on Open by Design: Participatory Algorithm for Equity and
-                  Inclusion and give a
-                  <span id="highlight_emph"
-                    >keynote at the MIDAS Ethical AI symposium at the University
-                    of Michigan</span
-                  >.
-                </td>
-              </tr>
+            <!-- Selected highlights (desktop) -->
+            <div class="selected-highlights">
+              <table width="280" cellspacing="0" cellpadding="0">
+                <tr>
+                  <td id="highlight_title">SELECTED HIGHLIGHTS</td>
+                </tr>
+                <tr>
+                  <td id="highlight">
+                    Our
+                    <a
+                      href="https://dl.acm.org/doi/10.1145/3686962"
+                      target="_blank"
+                      class="news"
+                      >Matchmaking with AI</a
+                    >
+                    paper received the
+                    <span id="highlight_emph"
+                      >CSCW24 Best Paper Honorable Mention</span
+                    >
+                    award.
+                  </td>
+                </tr>
 
-              <tr>
-                <td id="highlight">
-                  We organized a
-                  <span id="highlight_emph"
-                    >workshop on Human-AI Alignment: Developing a Research
-                    Agenda by Bridging Interdisciplinary Approaches</span
-                  >
-                  at the TAS conference!
-                </td>
-              </tr>
+                <tr>
+                  <td id="highlight">
+                    &#xFE0F; I was honored to participate in the
+                    <span id="highlight_emph"
+                      >White House Office of Science and Technology Policy
+                      (OSTP) event</span
+                    >
+                    on Open by Design: Participatory Algorithm for Equity and
+                    Inclusion and give a
+                    <span id="highlight_emph"
+                      >keynote at the MIDAS Ethical AI symposium at the
+                      University of Michigan</span
+                    >.
+                  </td>
+                </tr>
 
-              <tr>
-                <td id="highlight">
-                  Our PhD student, Angie Zhang, ran a co-design workshop as part
-                  of the <span id="highlight_emph">worker training on AI</span>,
-                  which was organized by
-                  <a href="https://www.ilo.org" target="_blank" class="news"
-                    >International Labour Organization</a
-                  >.
-                </td>
-              </tr>
-            </table>
+                <tr>
+                  <td id="highlight">
+                    We organized a
+                    <span id="highlight_emph"
+                      >workshop on Human-AI Alignment: Developing a Research
+                      Agenda by Bridging Interdisciplinary Approaches</span
+                    >
+                    at the TAS conference!
+                  </td>
+                </tr>
+
+                <tr>
+                  <td id="highlight">
+                    Our PhD student, Angie Zhang, ran a co-design workshop as
+                    part of the
+                    <span id="highlight_emph">worker training on AI</span>,
+                    which was organized by
+                    <a href="https://www.ilo.org" target="_blank" class="news"
+                      >International Labour Organization</a
+                    >.
+                  </td>
+                </tr>
+              </table>
+            </div>
           </div>
 
-          <!-- Right column (bio and links) -->
-          <div class="grid_8" id="biotext">
+          <!-- Biography text -->
+          <div id="biotext" class="biography" style="margin: 0 auto">
+            <!-- Portrait img mobile -->
+            <img
+              src="img/profile-small-02.png"
+              alt="Min Kyung Lee"
+              width="280"
+              id="portrait"
+              class="mobile"
+            />
+
             I am an assistant professor in the
             <a
               class="biotext"
@@ -300,6 +323,72 @@
               >
               <br />
             </p>
+          </div>
+
+          <!-- Selected highlights (mobile) -->
+          <div class="selected-highlights mobile">
+            <hr />
+
+            <table cellspacing="0" cellpadding="0">
+              <tr>
+                <td id="highlight_title">SELECTED HIGHLIGHTS</td>
+              </tr>
+              <tr>
+                <td id="highlight">
+                  Our
+                  <a
+                    href="https://dl.acm.org/doi/10.1145/3686962"
+                    target="_blank"
+                    class="news"
+                    >Matchmaking with AI</a
+                  >
+                  paper received the
+                  <span id="highlight_emph"
+                    >CSCW24 Best Paper Honorable Mention</span
+                  >
+                  award.
+                </td>
+              </tr>
+
+              <tr>
+                <td id="highlight">
+                  &#xFE0F; I was honored to participate in the
+                  <span id="highlight_emph"
+                    >White House Office of Science and Technology Policy (OSTP)
+                    event</span
+                  >
+                  on Open by Design: Participatory Algorithm for Equity and
+                  Inclusion and give a
+                  <span id="highlight_emph"
+                    >keynote at the MIDAS Ethical AI symposium at the University
+                    of Michigan</span
+                  >.
+                </td>
+              </tr>
+
+              <tr>
+                <td id="highlight">
+                  We organized a
+                  <span id="highlight_emph"
+                    >workshop on Human-AI Alignment: Developing a Research
+                    Agenda by Bridging Interdisciplinary Approaches</span
+                  >
+                  at the TAS conference!
+                </td>
+              </tr>
+
+              <tr>
+                <td id="highlight">
+                  Our PhD student, Angie Zhang, ran a co-design workshop as part
+                  of the
+                  <span id="highlight_emph">worker training on AI</span>, which
+                  was organized by
+                  <a href="https://www.ilo.org" target="_blank" class="news"
+                    >International Labour Organization</a
+                  >.
+                </td>
+              </tr>
+            </table>
           </div>
         </div>
       </section>
