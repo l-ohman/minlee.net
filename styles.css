@@ -3,6 +3,11 @@ section {
   padding: 0 2rem;
 }
 
+section > div {
+  max-width: min(100%, 1000px);
+  margin: 0 auto;
+}
+
 hr {
   border: 0.5px solid #ccc;
 }
@@ -70,5 +75,11 @@ hr.spacer {
 
   .biography {
     max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  #portrait.mobile {
+    width: 100%;
   }
 }
