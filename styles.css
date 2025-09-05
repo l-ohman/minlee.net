@@ -135,6 +135,12 @@ hr.spacer {
   max-width: 100%;
 }
 
+.project-large {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
 @media screen and (max-width: 1050px) {
   #news-column {
     display: none;
