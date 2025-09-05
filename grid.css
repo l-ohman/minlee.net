@@ -23,7 +23,6 @@
 */
 
 body {
-  min-width: 980px;
   background: #ffffff;
   margin: 0;
   padding: 0;
@@ -34,7 +33,6 @@ body {
 .container_12 {
 	margin-left: auto;
 	margin-right: auto;
-	/* width: 981px; */
 }
 
 /* Grid >> Global
@@ -402,8 +400,8 @@ body {
 }
 
 #footer {
-	width: 100%;
 	background: #F1F1F1;
+	width: 100%;
 }
 
 #footertext {
@@ -411,10 +409,9 @@ body {
 	font-weight: 400;
 	font-size: 15px;
 	color: #929292;
-	text-align: right;
 	margin: auto;
-	padding: 20px 0px 20px 0px;
-	width: 981px;
+	padding: 1.5rem;
+	text-align: right;
 }
 
 #name {
@@ -701,13 +698,20 @@ body {
 }
 
 .tabs {
-    text-align: center;
+  text-align: center;
 	font-family: 'Source Sans Pro', sans-serif; 
 	font-weight: 700; 
 	font-size: 25px; 
 	padding: 0 1rem 11px;
 	border-bottom: 1px solid #a1a1a1;
 	color: #777;
+}
+
+@media screen and (max-width: 600px) {
+	.tabs {
+		font-size: 1rem;
+		padding: 0 0.5rem 0.5rem;
+	}
 }
 
 .activated-tabs:not(a) {
