@@ -421,6 +421,7 @@ body {
 	padding: 10px 0px 20px 0px;
 	color: #363636;
 	white-space: nowrap;
+	max-width: 1000px;
 }
 
 #biotext {

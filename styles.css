@@ -204,3 +204,39 @@ hr.spacer {
     height: 150px;
   }
 }
+
+/* bio.html styles */
+
+#bio-section {
+  display: flex;
+  gap: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+#bio-photos > img {
+  width: 280px;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 675px) {
+  #bio-photos > img {
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  #bio-section {
+    gap: 1rem;
+    flex-direction: column;
+  }
+
+  #bio-photos {
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+  #bio-photos > img {
+    width: 50%;
+  }
+}
