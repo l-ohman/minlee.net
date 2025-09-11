@@ -3,6 +3,7 @@ import Bio from "./components/Bio";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Highlights from "./components/Highlights";
+import News from "./components/News";
 
 export default function App() {
   return (
@@ -14,6 +15,10 @@ export default function App() {
         <Bio />
         <hr />
         <Highlights />
+
+        <hr />
+
+        <News />
       </div>
 
       <Footer />

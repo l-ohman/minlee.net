@@ -1,0 +1,20 @@
+.news-item {
+  margin: 1rem auto;
+
+  > * {
+    margin: 0;
+  }
+
+  > .date {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #bababa;
+    line-height: 0.8rem;
+    margin-bottom: 3px;
+  }
+
+  > .content {
+    color: #808080;
+    line-height: 1.2rem;
+  }
+}
