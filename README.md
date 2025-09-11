@@ -7,6 +7,7 @@
 | Biography           | `/src/components/Bio/index.tsx` |
 | Selected Highlights | `/src/data/highlights.tsx`      |
 | News                | `/src/data/news.tsx`            |
+| Publications        | `/src/data/publications.tsx`    |
 
 ## Project setup
 

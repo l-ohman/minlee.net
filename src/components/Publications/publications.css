@@ -1,0 +1,21 @@
+#publications p {
+  margin: 0;
+}
+
+.publication-year {
+  margin: 1rem 0;
+}
+
+.publication {
+  margin-bottom: 1.5rem;
+}
+
+.publication-title {
+  font-weight: 600;
+  color: blue;
+}
+
+.publication-award {
+  font-weight: 600;
+  color: red;
+}

@@ -4,6 +4,7 @@ import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Highlights from "./components/Highlights";
 import News from "./components/News";
+import Publications from "./components/Publications";
 
 export default function App() {
   return (
@@ -18,7 +19,8 @@ export default function App() {
 
         <hr />
 
-        <News />
+        {/* <News /> */}
+        <Publications />
       </div>
 
       <Footer />
