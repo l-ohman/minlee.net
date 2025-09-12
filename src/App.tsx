@@ -4,6 +4,7 @@ import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Highlights from "./components/Highlights";
 import News from "./components/News";
+import Press from "./components/Press";
 import Publications from "./components/Publications";
 
 export default function App() {
@@ -20,7 +21,8 @@ export default function App() {
         <hr />
 
         {/* <News /> */}
-        <Publications />
+        {/* <Publications /> */}
+        <Press />
       </div>
 
       <Footer />
