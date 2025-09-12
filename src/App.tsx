@@ -6,6 +6,7 @@ import Highlights from "./components/Highlights";
 import News from "./components/News";
 import Press from "./components/Press";
 import Publications from "./components/Publications";
+import Research from "./components/Research";
 
 export default function App() {
   return (
@@ -22,7 +23,8 @@ export default function App() {
 
         {/* <News /> */}
         {/* <Publications /> */}
-        <Press />
+        {/* <Press /> */}
+        <Research />
       </div>
 
       <Footer />

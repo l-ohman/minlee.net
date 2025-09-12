@@ -8,6 +8,8 @@
 | Selected Highlights | `/src/data/highlights.tsx`      |
 | News                | `/src/data/news.tsx`            |
 | Publications        | `/src/data/publications.tsx`    |
+| Press               | `/src/data/press.tsx`           |
+| Research            | `/src/data/research.tsx`        |
 
 ## Project setup
 

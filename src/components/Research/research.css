@@ -1,0 +1,61 @@
+.project-large {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.project-large > img {
+  width: 280px;
+  object-fit: contain;
+}
+
+.project-large h3 {
+  margin-bottom: 0;
+}
+
+.project-large p {
+  margin-top: 0.25rem;
+}
+
+.project-divider {
+  border-style: solid;
+  border-color: #ddd;
+  margin: 1rem auto;
+}
+
+.subproject {
+  margin: 0 0 1rem 0;
+
+  h4 {
+    color: #aaa;
+    font-weight: 500;
+    font-size: 0.85rem;
+    margin: 0.5rem 0 0 0;
+  }
+
+  p {
+    margin: 0;
+  }
+
+  span,
+  a {
+    color: gray;
+    font-weight: 400;
+  }
+}
+
+.past-project {
+  margin: 1rem auto;
+  display: flex;
+  gap: 1rem;
+
+  > img {
+    width: min(55%, 500px);
+  }
+
+  h3,
+  p {
+    margin: 0;
+  }
+}
