@@ -4,7 +4,7 @@ import News from "../News";
 import Press from "../Press";
 import Publications from "../Publications";
 import Research from "../Research";
-import { Fragment, useState, type ReactNode } from "react";
+import { useState, type ReactNode } from "react";
 
 const tabsMobile = ["Research", "Publications", "Press", "News"];
 const tabsDesktop = ["Research", "Publications", "Press"];

@@ -9,7 +9,8 @@ export default function Highlights() {
       <div id="highlights-group">
         {highlights.map((highlight, idx) => (
           <div key={`highlight_${idx}`} className="highlight">
-            {highlight}
+            {<highlight.Icon size="5rem" className="highlight-icon" />}
+            <p>{highlight.content}</p>
           </div>
         ))}
       </div>

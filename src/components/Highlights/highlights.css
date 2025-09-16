@@ -47,3 +47,12 @@
     color: #6089c2;
   }
 }
+
+.highlight a {
+  text-decoration: underline;
+}
+
+.highlight-icon {
+  display: block;
+  margin: 0 auto;
+}
