@@ -1,0 +1,49 @@
+#main-content {
+  display: flex;
+  gap: 1.5rem;
+}
+
+#news-sidebar {
+  max-width: 350px;
+
+  > h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #999;
+    text-transform: uppercase;
+  }
+}
+
+#tab-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tab {
+  cursor: pointer;
+  width: 100%;
+  padding: 1rem 0.5rem 0.9rem;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border-bottom: 1px solid lightgray;
+  color: #999;
+  text-transform: uppercase;
+}
+
+.tab:hover:not(.selected) {
+  color: blue;
+  text-decoration: underline;
+}
+
+.tab.selected {
+  color: blue;
+  border-bottom: 3px solid blue;
+}
+
+@media screen and (max-width: 768px) {
+  .tab {
+    font-size: 1rem;
+    padding: 1rem 0.75rem 0.9rem;
+  }
+}

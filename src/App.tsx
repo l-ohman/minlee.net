@@ -3,10 +3,7 @@ import Bio from "./components/Bio";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Highlights from "./components/Highlights";
-import News from "./components/News";
-import Press from "./components/Press";
-import Publications from "./components/Publications";
-import Research from "./components/Research";
+import TabSelection from "./components/TabSelection";
 
 export default function App() {
   return (
@@ -21,10 +18,7 @@ export default function App() {
 
         <hr />
 
-        {/* <News /> */}
-        {/* <Publications /> */}
-        {/* <Press /> */}
-        <Research />
+        <TabSelection />
       </div>
 
       <Footer />
