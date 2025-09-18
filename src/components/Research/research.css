@@ -59,3 +59,53 @@
     margin: 0;
   }
 }
+
+/* testing new styling/redesign */
+#project-alt {
+  background: #eee;
+  /* box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.1); */
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.project-large-alt {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin-top: 0;
+
+  * {
+    margin: 0;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+  }
+}
+
+.past-project-alt {
+  background: #eee;
+  padding: 1rem;
+  margin: 2rem auto;
+  display: flex;
+  gap: 1rem;
+
+  > img {
+    width: min(55%, 500px);
+  }
+
+  h3 {
+    font-size: 1.5rem;
+  }
+
+  h3,
+  p {
+    margin: 0;
+  }
+
+  /* flipping every other element ? check with meah */
+  &:nth-child(odd) {
+    /* flex-direction: row-reverse; */
+    /* text-align: right; */
+  }
+}

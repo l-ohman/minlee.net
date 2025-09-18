@@ -15,9 +15,6 @@ export default function App() {
         <Bio />
         <hr />
         <Highlights />
-
-        <hr />
-
         <TabSelection />
       </div>
 

@@ -27,6 +27,7 @@ export default function Publications() {
       <div id="publications">
         {publicationYears.map((publicationYear) => (
           <Fragment key={`pubyear_${publicationYear.year}`}>
+            <hr />
             <h3 className="publication-year">{publicationYear.year}</h3>
             {publicationYear.papers.map((paper) => (
               <div className="publication">
