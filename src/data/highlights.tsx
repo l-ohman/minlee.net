@@ -38,12 +38,13 @@ export const highlights: Highlight[] = [
         <span className="highlight_emph">
           White House Office of Science and Technology Policy (OSTP) event
         </span>{" "}
-        on Open by Design: Participatory Algorithm for Equity and Inclusion and
+        on Open by Design: Participatory Algorithm for Equity and Inclusion
+        {/* and
         give a{" "}
         <span className="highlight_emph">
           keynote at the MIDAS Ethical AI symposium at the University of
           Michigan
-        </span>
+        </span>*/}
         .
       </>
     ),
