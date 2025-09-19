@@ -1,0 +1,28 @@
+#bio-page {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  min-height: calc(100vh - 14rem);
+}
+
+#bio-title {
+  margin: 0 0 1rem;
+  font-size: 1.5rem;
+  color: #777;
+}
+
+#bio-photos {
+  img {
+    display: block;
+    width: 280px;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+.bio-text {
+}
+
+.return {
+  font-style: italic;
+}

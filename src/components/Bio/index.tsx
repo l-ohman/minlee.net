@@ -90,7 +90,7 @@ export default function Bio() {
       <p>
         My vision is that <span id="biohighlight">Participatory AI</span>, which
         enables stakeholder participation across the AI development cycle, can
-        better align AI with stakeholde priorities and contribute to creating
+        better align AI with stakeholder priorities and contribute to creating
         just, empowering workplaces and cities.
       </p>
       <p>
@@ -131,9 +131,7 @@ export default function Bio() {
           src="/icons/bio.png"
           style={{ width: "25px", verticalAlign: "middle" }}
         />{" "}
-        <a href="bio.html" target="_blank">
-          Bio
-        </a>{" "}
+        <a href="bio">Bio</a>{" "}
         <img
           src="/icons/cv.png"
           style={{ width: "25px", verticalAlign: "middle" }}
@@ -156,7 +154,7 @@ export default function Bio() {
         <a href="https://hai.ischool.utexas.edu" target="_blank">
           Join our lab!
         </a>{" "}
-        <img
+        {/* <img
           src="/icons/twitter.png"
           style={{ width: "25px", verticalAlign: "middle" }}
         />{" "}
@@ -165,7 +163,7 @@ export default function Bio() {
           target="_blank"
         >
           Follow us
-        </a>
+        </a> */}
         <br />
       </p>
     </div>

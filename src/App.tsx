@@ -1,9 +1,9 @@
 import "./App.css";
-import Bio from "./components/Bio";
+import { Route, Routes } from "react-router-dom";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
-import Highlights from "./components/Highlights";
-import TabSelection from "./components/TabSelection";
+import Home from "./pages/Home";
+import BioPage from "./pages/Bio";
 
 export default function App() {
   return (
@@ -11,11 +11,10 @@ export default function App() {
       <Header />
 
       <div id="content">
-        <h1>Min Kyung Lee</h1>
-        <Bio />
-        <hr />
-        <Highlights />
-        <TabSelection />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/bio" element={<BioPage />} />
+        </Routes>
       </div>
 
       <Footer />
