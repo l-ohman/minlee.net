@@ -1,5 +1,6 @@
 import "./highlights.css";
 import { highlights } from "../../data/highlights";
+import FloatIn from "../FloatIn";
 
 export default function Highlights() {
   return (
@@ -8,10 +9,14 @@ export default function Highlights() {
 
       <div id="highlights-group">
         {highlights.map((highlight, idx) => (
-          <div key={`highlight_${idx}`} className="highlight">
+          <FloatIn
+            key={`highlight_${idx}`}
+            className="highlight"
+            delay={idx * 0.2}
+          >
             {<highlight.Icon size="5rem" className="highlight-icon" />}
             <p className="highlight-content">{highlight.content}</p>
-          </div>
+          </FloatIn>
         ))}
       </div>
     </div>
