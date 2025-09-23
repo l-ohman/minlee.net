@@ -1,0 +1,11 @@
+#footer {
+  width: 100%;
+  background-color: var(--lab-blue);
+
+  > p {
+    text-align: right;
+    margin: 0;
+    padding: 1rem;
+    color: white;
+  }
+}

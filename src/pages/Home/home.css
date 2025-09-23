@@ -1,0 +1,30 @@
+section {
+  padding: 0.01rem 1rem 1rem;
+  margin: 0;
+}
+
+section > * {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+section.bio-section {
+  margin-top: 0;
+  background-color: var(--home-gray);
+}
+
+section.highlights-section {
+  margin-top: 0;
+  background-color: white;
+}
+
+section.tab-selection-section {
+  margin-top: 0;
+  padding-top: 1rem;
+}
+
+.divider {
+  margin: 0.5rem auto;
+  max-width: 1000px;
+}

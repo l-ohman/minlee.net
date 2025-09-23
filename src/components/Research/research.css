@@ -62,7 +62,7 @@
 
 /* testing new styling/redesign */
 #project-alt {
-  background: #eee;
+  background: var(--home-gray);
   /* box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.1); */
   padding: 1rem;
   margin-bottom: 1.5rem;
@@ -84,7 +84,7 @@
 }
 
 .past-project-alt {
-  background: #eee;
+  background: var(--home-gray);
   padding: 1rem;
   margin: 2rem auto;
   display: flex;

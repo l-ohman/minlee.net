@@ -1,8 +1,30 @@
+:root {
+  --lab-blue: #262556;
+  --text-teal: rgb(36, 195, 167);
+  --faded-teal: rgb(157, 221, 210);
+  --soft-blue: #6089c2;
+  --text-purple: #646cff;
+  --navy-blue: #213547;
+  --home-gray: rgb(238, 247, 251);
+}
+
+/* fonts - Karla, Barlow, Lato */
 #root {
-  max-width: 1280px;
   margin: 0 auto;
+  font-family: "Karla", sans-serif;
 }
 
 #content {
-  padding: 0 1rem 0 1rem;
+  margin: 0 auto;
+}
+
+#name {
+  /* font-family: "Lato", sans-serif; */
+  font-weight: 700;
+}
+
+#header {
+  width: 100%;
+  height: 40px;
+  background-color: var(--lab-blue);
 }

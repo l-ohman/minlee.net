@@ -1,9 +1,6 @@
 #highlight-title {
-  font-family: "Source Sans Pro", sans-serif;
   font-weight: 700;
-  font-size: 21px;
-  line-height: 1.3;
-  padding: 16px 0px 0px 0px;
+  font-size: 1.5rem;
 }
 
 #highlights-group {
@@ -15,18 +12,18 @@
 }
 
 .highlight {
-  font-family: "Lato", sans-serif;
   font-weight: 400;
   font-size: 15px;
   line-height: 1.3;
-  color: #808080;
   padding: 5px 0px 0px 0px;
   text-align: center;
-
-  /* prototyping some grid layout stuff */
   width: 500px;
-  background-color: #eee;
   padding: 1rem;
+
+  color: #606060;
+  /* color: white; */
+  background-color: var(--home-gray);
+  /* background-color: var(--lab-blue); */
 }
 
 .highlight-content {
@@ -46,11 +43,9 @@
 
 .highlight_emph {
   color: #6089c2;
+  color: var(--text-purple);
+  /* color: var(--text-teal); */
   font-weight: 600;
-
-  &:hover {
-    color: #6089c2;
-  }
 }
 
 .highlight a {
@@ -60,4 +55,5 @@
 .highlight-icon {
   display: block;
   margin: 0 auto;
+  /* color: var(--text-teal); */
 }

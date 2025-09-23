@@ -32,13 +32,13 @@
 }
 
 .tab:hover:not(.selected) {
-  color: blue;
+  color: var(--text-purple);
   text-decoration: underline;
 }
 
 .tab.selected {
-  color: blue;
-  border-bottom: 3px solid blue;
+  color: var(--text-purple);
+  border-bottom: 3px solid var(--text-purple);
 }
 
 @media screen and (max-width: 768px) {

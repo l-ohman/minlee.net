@@ -1,6 +1,21 @@
 #portrait {
-  float: left;
+  /* float: left; */
   margin: 0;
   width: 280px;
   margin: 0 1rem 0.5rem 0;
+}
+
+#bio {
+  display: flex;
+  gap: 1rem;
+}
+
+.bio-text > p {
+  margin-top: 0;
+}
+
+#bio-links {
+  p {
+    margin: 0;
+  }
 }
