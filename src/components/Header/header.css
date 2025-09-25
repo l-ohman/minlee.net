@@ -1,0 +1,32 @@
+:root {
+  --header-height: 3.5rem;
+}
+
+#header {
+  width: 100%;
+  background-color: var(--lab-blue);
+  position: fixed;
+  height: var(--header-height);
+
+  > div {
+    height: var(--header-height);
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+
+    > a {
+      color: white;
+      font-weight: 400;
+      margin: 0 2rem 0 0;
+    }
+  }
+}
+
+#header-placeholder {
+  height: var(--header-height);
+}
+
+.current-url {
+  text-decoration: underline;
+}

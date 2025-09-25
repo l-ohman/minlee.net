@@ -1,15 +1,16 @@
+/*
+  Variant of publications component visible on home page
+*/
 import { Fragment } from "react/jsx-runtime";
 import publicationYears from "../../data/publications";
 import "./publications.css";
 
-interface PublicationsProps {
-  showCount?: number;
-}
+const YEAR_COUNT = 1;
 
-export default function Publications({ showCount }: PublicationsProps) {
-  const visiblePublications = publicationYears.slice(0, showCount);
+export default function PublicationsHome() {
   return (
-    <>
+    <div>
+      <h2 className="section-header">Publications</h2>
       <p>
         You can also find{" "}
         <a
@@ -30,10 +31,9 @@ export default function Publications({ showCount }: PublicationsProps) {
       </p>
 
       <div id="publications">
-        {visiblePublications.map((publicationYear) => (
+        {publicationYears.slice(0, YEAR_COUNT).map((publicationYear) => (
           <Fragment key={`pubyear_${publicationYear.year}`}>
-            <hr />
-            <h3 className="publication-year">{publicationYear.year}</h3>
+            
             {publicationYear.papers.map((paper) => (
               <div className="publication">
                 <p className="publication-title">{paper.title}</p>
@@ -52,8 +52,10 @@ export default function Publications({ showCount }: PublicationsProps) {
           </Fragment>
         ))}
 
-        {showCount && <a href="/publications">View more</a>}
+        <a href="/publications" className="large-link">
+          View more
+        </a>
       </div>
-    </>
+    </div>
   );
 }

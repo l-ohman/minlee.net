@@ -1,14 +1,18 @@
 import "./news.css";
-import { newsItems, VISIBLE_NEWS_COUNT } from "../../data/news";
+import { newsItems } from "../../data/news";
 import { useState } from "react";
 
-export default function News() {
-  const [visibleNewsItems, setVisibleNewsItems] = useState(VISIBLE_NEWS_COUNT);
+export default function News({
+  visibleNewsCount = 99999,
+}: {
+  visibleNewsCount: number;
+}) {
+  const [visibleNewsItems, setVisibleNewsItems] = useState(visibleNewsCount);
   const shownNewsItems = newsItems.slice(0, visibleNewsItems + 1);
   const allNewsVisible = visibleNewsItems >= newsItems.length;
 
   const showMoreNews = () => {
-    setVisibleNewsItems(visibleNewsItems + VISIBLE_NEWS_COUNT);
+    setVisibleNewsItems(visibleNewsItems + visibleNewsCount);
   };
 
   return (

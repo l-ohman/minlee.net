@@ -1,5 +1,9 @@
 import Bio from "../../components/Bio";
 import Highlights from "../../components/Highlights";
+import NewsHome from "../../components/News/NewsHome";
+import PressHome from "../../components/Press/PressHome";
+import PublicationsHome from "../../components/Publications/PublicationsHome";
+import ResearchHome from "../../components/Research/ResearchHome";
 import TabSelection from "../../components/TabSelection";
 import "./home.css";
 
@@ -19,8 +23,15 @@ export default function Home() {
 
       {/* <hr className="divider" /> */}
 
-      <section className="tab-selection-section">
-        <TabSelection />
+      {/* <section className="tab-selection-section"> */}
+      {/* <TabSelection /> */}
+      {/* </section> */}
+
+      <section className="detailed-content">
+        <ResearchHome />
+        <PublicationsHome />
+        <PressHome />
+        <NewsHome />
       </section>
     </>
   );

@@ -16,7 +16,7 @@ const publicationYears: PublicationYear[] = [
     papers: [
       {
         title:
-          "65 Algorithmic management and occupational safety and health in the logistics sector.",
+          "Algorithmic management and occupational safety and health in the logistics sector.",
         authors:
           "Nilsson, K., Håkansta, C., Strauss-Raats, P., Lee, M. K., & Bodin, T.",
         journal:

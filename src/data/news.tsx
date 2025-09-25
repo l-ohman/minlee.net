@@ -5,9 +5,6 @@ export type NewsItem = {
   content: ReactNode;
 };
 
-/* The number of news items before "show more" appears */
-export const VISIBLE_NEWS_COUNT = 10;
-
 export const newsItems: NewsItem[] = [
   {
     date: "November 2024",

@@ -3,7 +3,7 @@ import "./bio.css";
 
 export default function BioPage() {
   return (
-    <>
+    <div style={{ padding: "2rem", maxWidth: "900px", margin: "0 auto" }}>
       <h1>Min Kyung Lee</h1>
       <div id="bio-page">
         <div id="bio-photos">
@@ -123,9 +123,8 @@ export default function BioPage() {
             countries, and skied in the U.S., Canada, Italy, France,
             Switzerland, Japan, and Korea.
           </p>
-          <Link to="/" className="return">Return to home page</Link>
         </div>
       </div>
-    </>
+    </div>
   );
 }
