@@ -15,8 +15,8 @@ export default function Research() {
         <ProjectAlt key={project.title} project={project} />
       ))}
 
-      {/* <p>My past projects investigated human-robot interaction:</p> */}
       <h2>Past Projects</h2>
+      <p>My past projects investigated human-robot interaction:</p>
 
       {pastProjects.map((pastProject) => (
         <PastProjectAlt key={pastProject.title} pastProject={pastProject} />

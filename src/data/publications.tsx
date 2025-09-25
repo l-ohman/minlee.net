@@ -685,45 +685,6 @@ const publicationYears: PublicationYear[] = [
     ],
   },
   {
-    year: 2012,
-    papers: [
-      {
-        title:
-          "Ripple Effects of Embedded Social Agents: Field Study of a Social Robot in the Workplace",
-        authors: "Lee, M. K., Kiesler, S., Forlizzi, J., and Rybski, P.",
-        journal:
-          "Proceedings of the ACM/SIGCHI Conference on Human Factors in Computing Systems (CHI 2012), 695-704. 23% acceptance rate.",
-        link: "materials/Publication/2012-CHI-social_agent_in_social_setting.pdf",
-      },
-      {
-        title: "Personalization in HRI: A Longitudinal Field Experiment",
-        authors:
-          "Lee, M. K., Forlizzi, J., Kiesler, S., Rybski, P., Antanitis, J., and Savetsila, S.",
-        journal:
-          "Proceedings of the ACM/IEEE International Conference on Human Robot Interaction (HRI 2012), 319-326. 25% acceptance rate.",
-        link: "materials/Publication/2012-HRI-personalization.pdf",
-      },
-      {
-        title: "A Fieldwork of the Future with User Enactments",
-        authors:
-          "Odom, W., Zimmerman, J., Davidoff, S., Forlizzi, J., Dey, A. K., and Lee, M. K.",
-        journal:
-          "Proceedings of the ACM Conference on Designing Interactive Systems (DIS 2012), 338-347. 26% acceptance rate.",
-        award: "Best Paper Award",
-        link: "materials/Publication/2012-DIS-user_enactments.pdf",
-      },
-      {
-        title:
-          "Learning the Communication of Intent Prior to Physical Collaboration",
-        authors:
-          "Strabala, K., Lee, M. K., Dragan, A., Forlizzi, J., and Srinivasa, S.",
-        journal:
-          "Proceedings of the IEEE Symposium on Robot and Human Interactive Communication (RO-MAN 2012), 968-973.",
-        link: "materials/Publication/2012-ROMAN-predicting_intent.pdf",
-      },
-    ],
-  },
-  {
     year: 2011,
     papers: [
       {

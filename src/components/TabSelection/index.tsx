@@ -10,7 +10,7 @@ const tabsMobile = ["Research", "Publications", "Press", "News"];
 const tabsDesktop = ["Research", "Publications", "Press"];
 const tabsMap: { [key: string]: ReactNode } = {
   "Research": <Research />,
-  "Publications": <Publications />,
+  "Publications": <Publications showCount={1} />,
   "Press": <Press />,
   "News": <News />,
 };

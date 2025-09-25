@@ -1,8 +1,14 @@
 import { Fragment } from "react/jsx-runtime";
 import publicationYears from "../../data/publications";
 import "./publications.css";
+import { Link } from "react-router-dom";
 
-export default function Publications() {
+interface PublicationsProps {
+  showCount?: number;
+}
+
+export default function Publications({ showCount }: PublicationsProps) {
+  const visiblePublications = publicationYears.slice(0, showCount);
   return (
     <>
       <p>
@@ -25,7 +31,7 @@ export default function Publications() {
       </p>
 
       <div id="publications">
-        {publicationYears.map((publicationYear) => (
+        {visiblePublications.map((publicationYear) => (
           <Fragment key={`pubyear_${publicationYear.year}`}>
             <hr />
             <h3 className="publication-year">{publicationYear.year}</h3>
@@ -46,6 +52,8 @@ export default function Publications() {
             ))}
           </Fragment>
         ))}
+
+        {showCount && <a href="/publications">View more</a>}
       </div>
     </>
   );

@@ -17,7 +17,7 @@ export default function Home() {
         <Highlights />
       </section>
 
-      <hr className="divider" />
+      {/* <hr className="divider" /> */}
 
       <section className="tab-selection-section">
         <TabSelection />
