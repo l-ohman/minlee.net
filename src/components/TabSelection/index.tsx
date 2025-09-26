@@ -1,3 +1,6 @@
+/*
+  From previous design -- not currently in use
+*/
 import "./tabs.css";
 import { useMediaQuery } from "usehooks-ts";
 import News from "../News";

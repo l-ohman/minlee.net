@@ -4,7 +4,7 @@ import NewsHome from "../../components/News/NewsHome";
 import PressHome from "../../components/Press/PressHome";
 import PublicationsHome from "../../components/Publications/PublicationsHome";
 import ResearchHome from "../../components/Research/ResearchHome";
-import TabSelection from "../../components/TabSelection";
+// import TabSelection from "../../components/TabSelection";
 import "./home.css";
 
 export default function Home() {

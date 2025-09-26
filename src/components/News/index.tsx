@@ -5,7 +5,7 @@ import { useState } from "react";
 export default function News({
   visibleNewsCount = 99999,
 }: {
-  visibleNewsCount: number;
+  visibleNewsCount?: number;
 }) {
   const [visibleNewsItems, setVisibleNewsItems] = useState(visibleNewsCount);
   const shownNewsItems = newsItems.slice(0, visibleNewsItems + 1);

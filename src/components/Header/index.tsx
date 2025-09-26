@@ -12,7 +12,6 @@ const headerLinks = [
 
 export default function Header() {
   const currentRoute = useLocation().pathname;
-  console.log(currentRoute);
   return (
     <>
       <div id="header">
@@ -21,7 +20,6 @@ export default function Header() {
             let url = link;
             if (link === "Home") url = "/";
             else url = `/${link.toLowerCase()}`;
-            console.log(currentRoute, url)
             return (
               <a
                 key={link}

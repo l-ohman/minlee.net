@@ -3,7 +3,7 @@ export default function BioLinks() {
     <div id="bio-links">
       <p className="bio-link">
         <img
-          src="/icons/bio.png"
+          src="icons/bio.png"
           style={{ width: "25px", verticalAlign: "middle" }}
         />{" "}
         <a href="bio">Biography</a>
@@ -11,7 +11,7 @@ export default function BioLinks() {
 
       <p className="bio-link">
         <img
-          src="/icons/cv.png"
+          src="icons/cv.png"
           style={{ width: "25px", verticalAlign: "middle" }}
         />{" "}
         <a href="materials/CV_MinKyungLee.pdf" target="_blank">
@@ -21,7 +21,7 @@ export default function BioLinks() {
 
       <p className="bio-link">
         <img
-          src="/icons/scholar.png"
+          src="icons/scholar.png"
           style={{ width: "25px", verticalAlign: "middle" }}
         />{" "}
         <a
@@ -42,7 +42,7 @@ export default function BioLinks() {
 
       {/* <p className="bio-link">
         <img
-          src="/icons/twitter.png"
+          src="icons/twitter.png"
           style={{ width: "25px", verticalAlign: "middle" }}
         />{" "}
         <a

@@ -12,6 +12,7 @@
     height: var(--header-height);
     max-width: 1000px;
     margin: 0 auto;
+    padding: 0 1rem;
     display: flex;
     align-items: center;
 
@@ -29,4 +30,15 @@
 
 .current-url {
   text-decoration: underline;
+}
+
+@media screen and (max-width: 525px) {
+  #header {
+    > div {
+      > a {
+        margin: 0 1rem 0 0;
+        font-size: 0.85rem;
+      }
+    }
+  }
 }

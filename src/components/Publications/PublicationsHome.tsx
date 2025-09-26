@@ -33,9 +33,8 @@ export default function PublicationsHome() {
       <div id="publications">
         {publicationYears.slice(0, YEAR_COUNT).map((publicationYear) => (
           <Fragment key={`pubyear_${publicationYear.year}`}>
-            
             {publicationYear.papers.map((paper) => (
-              <div className="publication">
+              <div className="publication" key={paper.title}>
                 <p className="publication-title">{paper.title}</p>
                 <p>{paper.authors}</p>
                 <p>{paper.journal}</p>
